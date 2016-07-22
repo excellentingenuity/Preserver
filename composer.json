@@ -1,0 +1,39 @@
+{
+  "name": "eig/preserver",
+  "description": "Save PHP Objects like Pythons Pickler",
+  "license": "MIT",
+  "keywords": ["Object", "save", "serialize"],
+  "type": "library",
+  "homepage": "https://github.com/excellentingenuity/preserver",
+  "authors": [
+    {
+      "name": "James Johnson",
+      "email": "james.johnson@excellentingenuity.com",
+      "role": "Developer/Maintainer"
+    }
+  ],
+  "support": {
+    "docs": "https://github.com/excellentingenuity/preserver",
+    "issues": "https://github.com/excellentingenuity/preserver/issues",
+    "wiki": "https://github.com/excellentingenuity/preserver/wiki"
+  },
+  "require": {
+    "php": ">=5.6"
+
+  },
+  "autoload": {
+    "psr-4": {
+      "eig\\Preserver\\": "src/Preserver"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "eig\\Preserver\\Test\\": "src/tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "master": "master-dev"
+    }
+  }
+}
